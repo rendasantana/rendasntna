@@ -45,35 +45,33 @@ let resumeData = {
 
   address: "Malang, Indonesia",
 
-  className: "fa fa-whatsapp",
-
+  wa: "fa fa-whatsapp",
   whatsapp: "+62 813 5857 1315",
-
-  website: "https://ivy555.github.io",
+  walink: "https://wa.link/4werdn",
 
   education: [
     {
-      UniversityName: "Hochschule Fulda",
+      UniversityName: "University Of Muhammadiyah Malang",
 
-      specialization: "Machine Learning",
+      specialization: "Informatic Enginering",
 
-      MonthOfPassing: "Aug",
+      MonthOfPassing: "Nov",
 
-      YearOfPassing: "2022",
+      YearOfPassing: "2016",
 
       Achievements: "Some Achievements",
     },
 
     {
-      UniversityName: "Some University",
+      UniversityName: "Glint x Binar Academy",
 
-      specialization: "Some specialization",
+      specialization: "Front End Developer",
 
-      MonthOfPassing: "Jan",
+      MonthOfPassing: "Apr",
 
-      YearOfPassing: "2018",
+      YearOfPassing: "2020",
 
-      Achievements: "Some Achievements",
+      Achievements: "React Js",
     },
   ],
 

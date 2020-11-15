@@ -11,9 +11,8 @@ export default class Resume extends Component {
               <span>Education</span>
             </h1>
           </div>
-          <div className="nine columns main-col">
-            {resumeData.education &&
-              resumeData.education.map((item) => {
+          <div className="edu">
+            {resumeData.education && resumeData.education.map((item) => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">

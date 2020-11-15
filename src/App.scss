@@ -82,11 +82,51 @@ header {
   background-color: black;
   color: aliceblue;
   // margin: 20px 0;
+  padding: auto 0;
   .row {
-    padding: 20px 0;
+    padding: 5% 0;
     p {
       width: 50%;
       margin: 0 auto;
+    }
+    span {
+      padding: 5px;
+      i {
+        padding: 10px;
+      }
+      a {
+        padding: 10px;
+        // font-size: 30px;
+        color: rgb(255, 255, 255);
+        :active {
+          color: rgb(255, 255, 255);;
+        }
+        :visited {
+          color: rgb(255, 255, 255);
+        }
+        :hover {
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+#resume {
+  background-color: white;
+  .education {
+    padding: 20px;
+    h1 {
+      font-size: 30px;
+    }
+    .edu {
+      background-color: rgba(158, 158, 157, 0.3);
+    }
+    .item {
+      // background-color: hotpink;
+      display: inline-block;
+      // flex-direction: column;
+      padding: 20px 70px;
     }
   }
 }

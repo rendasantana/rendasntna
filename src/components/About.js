@@ -20,12 +20,17 @@ export default class About extends Component {
                                     <span>{resumeData.name}</span>
                                     <br></br>
                                     <span>
-                                        <i className={resumeData.className}> {resumeData.whatsapp}</i>
+                                        <a href={resumeData.walink} target=''>
+                                            <i className={resumeData.wa}>  {resumeData.whatsapp}</i>
+                                        </a>
                                     </span>
                                     <br></br>
                                     <span>{resumeData.address}</span>
                                     <br></br>
-                                    <span>{resumeData.website}</span>
+                                    {/* <span>
+                                        <i className={resumeData.github}></i>
+                                        <i className={resumeData.gitlab}></i>
+                                    </span> */}
                                     </p>
                                 </div>
                             </div>
