@@ -37,7 +37,7 @@ export default class Resume extends Component {
               <span>Work</span>
             </h1>
           </div>
-          <div className="nine columns main-col">
+          <div className="work-list">
             {resumeData.work &&
               resumeData.work.map((item) => {
                 return (
@@ -65,7 +65,7 @@ export default class Resume extends Component {
             </h1>
           </div>
           <div className="nine columns main-col">
-            <p>{resumeData.skillsDescription}</p>
+            {/* <p>{resumeData.skillsDescription}</p> */}
             <div className="bars">
               <ul className="skills">
                 {resumeData.skills &&

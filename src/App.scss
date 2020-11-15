@@ -115,7 +115,7 @@ header {
 #resume {
   background-color: white;
   .education {
-    padding: 20px;
+    padding: 10px;
     h1 {
       font-size: 30px;
     }
@@ -128,5 +128,33 @@ header {
       // flex-direction: column;
       padding: 20px 70px;
     }
+  }
+  .work {
+    padding: 10px;
+    h1 {
+      font-size: 30px;
+    }
+    .work-list {
+      background-color: rgba(158, 158, 157, 0.3);
+    }
+    .item {
+      // background-color: hotpink;
+      display: inline-block;
+      // flex-direction: column;
+      padding: 20px 70px;
+    }
+  }
+  .skill {
+    padding: 10px;
+    h1 {
+      font-size: 30px;
+    }
+    .skills {
+      background-color: rgba(158, 158, 157, 0.3);
+      display: flex;
+      justify-content: space-around;
+      text-decoration: none;
+    }
+    
   }
 }
