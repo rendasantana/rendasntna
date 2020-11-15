@@ -8,7 +8,7 @@ export default class About extends Component {
                 <section id="about">
                     <div className='row'>
                         <div className='three columns'>
-                            <img className='profile-pic' src='images/profile.jpg' alt='' />
+                            <img className='profile-pic' src={resumeData.imgAbout}  alt='gambarcuy' />
                         </div>
                         <div className='nine columns main-col'>
                             <h2>About Me</h2>
@@ -18,6 +18,10 @@ export default class About extends Component {
                                     <h2>Contact Details</h2>
                                     <p className='address'>
                                     <span>{resumeData.name}</span>
+                                    <br></br>
+                                    <span>
+                                        <i className={resumeData.className}> {resumeData.whatsapp}</i>
+                                    </span>
                                     <br></br>
                                     <span>{resumeData.address}</span>
                                     <br></br>

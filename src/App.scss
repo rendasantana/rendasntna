@@ -1,0 +1,92 @@
+// @import '~bootstrap/scss/bootstrap.scss';
+
+.App {
+  text-align: center;
+  background-color: aqua;
+}
+
+header {
+  background: white url('http://2.bp.blogspot.com/-LdrD3XA31tg/TWUbfFSmoFI/AAAAAAAAABY/6RU011y_Oe8/s660/l_f36ff28b60ab40899f1f7380133b9c29.jpg') no-repeat fixed center;
+  height: 700px;
+  // background-size: 50% 50%;
+  .nav {
+    overflow: hidden;
+    background-color: #000000;
+    margin-top: 10px;
+    // position: fixed;
+    // width: 100%;
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        padding-left: 10px;
+        a {
+          // color: rgb(161, 161, 161);
+          text-decoration: none;
+        }
+        :link {
+          color: white;
+        }
+        :active {
+          background-color:white;
+        }
+        :visited {
+          color: white;
+        }
+        :hover {
+          color: gainsboro;
+        }
+      }
+    }
+  }
+  .banner{
+    .banner-text{
+      background-color: rgba(158, 158, 157, 0.3);
+      height: 500px;
+      .responsive-headline{
+        line-height: 220px;
+      }
+      h3 {
+        width: 50%;
+        margin: 0 auto;
+        // background-color: yellowgreen;
+      }
+      .social {
+        // background-color: violet;
+        width: 50%;
+        margin: 20px auto 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        li {
+          padding: 10px;
+          font-size: 30px;
+          color: black;
+          :active {
+            background-color: gray;
+          }
+          :visited {
+            color: black;
+          }
+          :hover {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+#about{
+  height: 700px;
+  background-color: black;
+  color: aliceblue;
+  // margin: 20px 0;
+  .row {
+    padding: 20px 0;
+    p {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+}

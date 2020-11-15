@@ -1,5 +1,7 @@
+import 'font-awesome/css/font-awesome.min.css';
+
 let resumeData = {
-  imagebaseurl: "https://ivy555.github.io/",
+  imgAbout: "http://2.bp.blogspot.com/-LdrD3XA31tg/TWUbfFSmoFI/AAAAAAAAABY/6RU011y_Oe8/s660/l_f36ff28b60ab40899f1f7380133b9c29.jpg",
 
   name: "Renda Santana",
 
@@ -32,16 +34,20 @@ let resumeData = {
     {
       name: "skype",
 
-      url: "",
+      url: "https://www.instagram.com/rendasantana/",
 
-      className: "fa fa-twitter",
+      className: "fa fa-instagram",
     },
   ],
 
   aboutme:
     "I am currently a Masters student at The Hochschule Fulda and pursuing my masters in Global software Development from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
 
-  address: "Indonesia",
+  address: "Malang, Indonesia",
+
+  className: "fa fa-whatsapp",
+
+  whatsapp: "+62 813 5857 1315",
 
   website: "https://ivy555.github.io",
 
